@@ -14,7 +14,7 @@ body {
     width: 90%;
     justify-content: center;
     align-items: center;
-    margin: 0 17px;
+    margin: 0 30px;
 }
 
 h1,
@@ -194,7 +194,7 @@ footer span {
 
 @media (min-width: 768px) {
     .container {
-        margin: 0 40px 
+        margin: 0 50px 
     }
     header h1 {
         width: 100%;
@@ -229,8 +229,31 @@ footer span {
 
 /***** DESKTOP *****/
 @media (min-width: 1200px) {
+    .container {
+        margin: 0 82px;
+    }
     header {
         display: flex;
-        flex-flow: row
+        flex-flow: row;
+        width: 100%;
+    }
+    header h1 {
+        border: none;
+        display: flex;
+        justify-content: flex-start;
+    }
+    header nav {
+        display: flex;
+        justify-content: flex-end;
+    }
+    header nav ul {
+        display: flex;
+        flex-flow: row;
+    }
+    header nav ul li {
+        font-size: 1em;
+    }
+    .section-two p {
+        font-size: 1em;
     }
 }
