@@ -2,10 +2,12 @@
 	font-family: 'Wisdom Script';
 	src: url('../fonts/wisdom-script.otf') format('opentype');
 }
-
+html {
+    font-size: 16px;
+}
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 1em;
 }
 
 .container{
