@@ -13,10 +13,11 @@ body {
 .container{
     display: flex;
     flex-flow: column wrap;
+    max-width: 1200px;
     width: 90%;
     justify-content: center;
     align-items: center;
-    margin: 0 30px;
+    margin: 0 auto;
 }
 
 h1,
@@ -98,7 +99,7 @@ header nav ul li a{
 .bottom-section {
 	margin: 0 auto;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
 }
 
 .main-image {
@@ -135,7 +136,6 @@ header nav ul li a{
 	width: 100%;
 	height: auto;
 	border-top: 1px solid #eee;
-    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -195,18 +195,15 @@ footer span {
 /***** TABLETS *****/
 
 @media (min-width: 768px) {
-    .container {
-        margin: 0 50px 
-    }
     header h1 {
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 3em;
+        font-size: 1.875em;
     }
     header nav ul li {
-        font-size: 1.875em;
+        font-size: 1.5em;
     }
     .bottom-section {
         display: flex;
@@ -216,8 +213,7 @@ footer span {
     .section-one,
     .section-two,
     .section-three {
-        display: flex;
-        justify-content: flex-start
+        justify-content: flex-start;
     }
     .section-one h4,
     .section-two h4,
@@ -231,9 +227,6 @@ footer span {
 
 /***** DESKTOP *****/
 @media (min-width: 1200px) {
-    .container {
-        margin: 0 82px;
-    }
     header {
         display: flex;
         flex-flow: row;
